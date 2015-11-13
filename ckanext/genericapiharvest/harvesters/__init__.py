@@ -1,0 +1,2 @@
+from ckanext.genericapiharvest.harvesters.genericapiharvester import GENERICAPIHarvester
+from ckanext.harvestodm.harvesters.base import HarvesterBase
