@@ -1,7 +1,7 @@
 ckanext-genericapiharvest
 ==========================
 
-A harvester to allow CKAN directories to keep in sync with catalogues that provide the data threw an API service.
+A harvester to allow CKAN directories to keep in sync with catalogues that provide the data via an API service.
 
 In order to use this tool, you need to have the CKAN harvester extension (https://github.com/okfn/ckanext-harvest)
 installed and loaded for your CKAN instance.
