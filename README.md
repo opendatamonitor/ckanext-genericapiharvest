@@ -35,6 +35,7 @@ After setting this up, you should be able to go to:
     http://localhost:5000/harvest
 
 Select Register a new Catalogue
+
 Select the GENERICAPI radiobutton
 
 
