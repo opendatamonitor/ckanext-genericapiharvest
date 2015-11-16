@@ -2,18 +2,23 @@ ckanext-genericapiharvest
 ==========================
 
 A harvester to allow CKAN directories to keep in sync with catalogues that provide the data threw an API service.
-The ckanext-genericapiharvest plugin uses the mongo DB as metadata repository and developed as part of the ODM project (www.opendatamonitor.eu).
 
 In order to use this tool, you need to have the CKAN harvester extension (https://github.com/okfn/ckanext-harvest)
 installed and loaded for your CKAN instance.
 Tested with CKAN v2.2 (http://docs.ckan.org/en/ckan-2.2/).
+
+General
+--------
+The ckanext-genericapiharvest attempts to handle custom APIs cases, which should follow some criteria (providing a list with all datasets , providing a url from which it would be possible to get a dataset's content as json and also providing an identifier per dataset)
+The plugin uses the mongo DB as metadata repository and developed as part of the ODM project (www.opendatamonitor.eu).
+
 
 Building
 ---------
 
 To build and use this plugin, simply:
 
-    git clone git@github.com:opendatamonitor/ckanext-genericapiharvest.git
+    git clone https://github.com/opendatamonitor/ckanext-genericapiharvest.git
     cd ckanext-genericapiharvest
     pip install -r pip-requirements.txt
     python setup.py develop
@@ -31,8 +36,6 @@ After setting this up, you should be able to go to:
 
 Select Register a new Catalogue
 Select the GENERICAPI radiobutton
-
-And have a new "GENERICAPI" harvest type show up when creating sources.
 
 
 Licence
