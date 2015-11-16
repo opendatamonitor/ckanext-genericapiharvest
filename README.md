@@ -9,7 +9,6 @@ Tested with CKAN v2.2 (http://docs.ckan.org/en/ckan-2.2/).
 
 General
 --------
-The ckanext-genericapiharvest attempts to handle custom APIs cases, which should follow some criteria (providing a list with all datasets , providing a url from which it would be possible to get a dataset's content as json and also providing an identifier per dataset)
 The plugin uses the mongo DB as metadata repository and developed as part of the ODM project (www.opendatamonitor.eu).
 
 
