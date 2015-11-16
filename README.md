@@ -23,7 +23,7 @@ To build and use this plugin, simply:
     python setup.py develop
 
 Then you will need to update your CKAN configuration to include the new harvester.  This will mean adding the
-ckanext-genericapiharvest plugin as a plugin.  E.g.
+ckanext-genericapiharvest plugin as a plugin, e.g.
 
     ckan.plugins = genericapi_harvester genericapiharvest
 
