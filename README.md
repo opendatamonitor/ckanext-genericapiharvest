@@ -44,6 +44,13 @@ Select Register a new Catalogue
 
 Select the GENERICAPI radiobutton
 
+In case that you don't have the ckanext-htmlharvest extension installed (https://github.com/opendatamonitor/ckanext-htmlharvest)
+
+Then go to:
+
+    http://localhost:5000/genericapiharvest/generic
+
+
 
 Licence
 ---------
